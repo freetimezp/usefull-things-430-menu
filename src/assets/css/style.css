@@ -118,6 +118,7 @@ nav .nav-toggle-btn span {
     pointer-events: none;
     overflow: hidden;
     z-index: 1;
+    opacity: 0;
 }
 
 .menu.active {
@@ -186,12 +187,14 @@ nav .nav-toggle-btn span {
 .menu .menu-items-col:nth-child(1) a {
     text-transform: uppercase;
     font-size: clamp(1.5rem, 2.5vw, 4rem);
+    color: var(--base-100);
     line-height: 1.1;
 }
 
 .menu .menu-items-col:nth-child(2) a {
     font-family: "Instrument Serif", sans-serif;
     font-size: clamp(1.65rem, 2.75vw, 3rem);
+    color: var(--base-100);
     line-height: 1.2;
 }
 
